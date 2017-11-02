@@ -1,0 +1,91 @@
+body{
+overflow: hidden;
+background:url(background.png);
+}
+ 
+#myCanvas
+{
+    display: block;
+    margin: 0 auto;
+    margin-top:10px;
+    /*background-color:#2A2927;*/
+    border-radius: 10px;
+    border-bottom:35px solid #C2AA83;
+    box-shadow: 3px 3px 0px #888888;
+    padding-top:5px;
+	padding-right:5px;
+}
+.ccanvas 
+{
+background-color: white;	
+font-family: lucida consolas;
+}
+
+.buttonsclass 
+{
+	
+	margin: 0 0 0 15px;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 80vh;
+  position: absolute;
+  
+}
+
+.helpContent
+{
+	margin-top: 300;
+	margin-left: 150;
+	position: absolute;
+	float: right;
+	
+}
+
+p.speech {
+	font-family: courier;
+	margin-left: 140;
+	margin-top: 90;
+	margin-right: 37px;
+float:right;
+ position: relative;
+  width: 160px;
+  height: 200px;
+  text-align: center;
+  background-color: #fff;
+  border: 3px solid #666;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  -webkit-box-shadow: 2px 2px 4px #888;
+  -moz-box-shadow: 2px 2px 4px #888;
+  box-shadow: 2px 2px 4px #888n;
+  display:block;
+  font-weight:600;
+}
+.nextLevel{
+	font-family: serif;
+	margin-left: 140;
+	margin-top: 90;
+	margin-right: 37px;
+float:right;
+ position: relative;
+  width: 150px;
+  height: 200px;
+  text-align: center;
+  background-color: #fff;
+  border: 8px solid #666;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  -webkit-box-shadow: 2px 2px 4px #888;
+  -moz-box-shadow: 2px 2px 4px #888;
+  box-shadow: 2px 2px 4px #888n ;
+	display:none;
+}
+
+#plusfive{
+    display: none;
+    position: absolute;
+    left: 438px;
+    top: 227px;
+}

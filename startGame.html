@@ -1,0 +1,45 @@
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <META NAME="robots" CONTENT="noindex, nofollow">
+  <title>Game Started</title>
+  <link rel="stylesheet" type="text/css" href="game.css">
+  <script src="game.js"></script>
+</head>
+
+
+<body onload="gameStart()">
+  <canvas class="ccanvas" id="myCanvas" width="1000" height="550" style="border: 1px solid black ; background-color: #C0C0C0 ; float: left">
+  </canvas>
+  <br>
+  <br>
+<img id='plusfive' src='plusfive.png'/>
+</body>
+
+<span class='buttonsclass'>
+  <img src="Retry.png" onclick="retry()" width="50" height="70" />&nbsp;&nbsp;&nbsp;
+  <img src="Pause.png" id="imgBtn" width="50" height="70" />&nbsp;&nbsp;&nbsp;
+  <img src="on.png" id="sound" width="50" height="70" />&nbsp;&nbsp;&nbsp;
+</span>
+
+<p class="speech" id="speech1">
+    <b>&nbsp;&nbsp;<u>Instructions:</u></b>
+    <br/>&nbsp;1. Use Left and Right Arrow Keys to Move.
+    <br/>&nbsp;2. Press Space bar to Pause the Game.
+    <br/>&nbsp;3. Magic Brick on collision, clears 4 more bricks.  
+</p>
+
+
+<img src="next_level.png" class="nextLevel" id="nxt1" width="50" height="70" />
+<span class="helpContent">
+<img src="jenie.png" height="300" width="200" />
+</span>
+<script>
+  function retry() {
+    document.location.reload();
+  }
+</script>
+
+</html>
